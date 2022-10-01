@@ -1,0 +1,18 @@
+<h1>Producto</h1>
+{% extends "layout.html" %}
+{% block category %}
+
+<div class="col-lg-3">
+  <h1 class="my-4">Shop Name</h1>
+  <div class="list-group">
+    {% for categoria in categoria_list %}
+    <a href="#" class="list-group-item">{{categoria.nombre}}</a>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+{% block content %}
+<h1>{{ producto.nombre }}</h1>
+{{ producto.precio }}
+{% endblock %}

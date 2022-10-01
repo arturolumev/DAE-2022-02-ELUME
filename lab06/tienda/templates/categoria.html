@@ -1,0 +1,5 @@
+{{ producto.nombre }}
+
+{% for categoria in categoria_list.producto_set.all %}
+    <h2>{{categoria.nombre}}</h2>
+{% endfor %}
