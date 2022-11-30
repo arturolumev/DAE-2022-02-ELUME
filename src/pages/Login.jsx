@@ -44,6 +44,7 @@ function Login() {
                                             </div>
                                             <div className="card-footer text-center py-3">
                                                 <div className="small"><Link to="/register">No tiene cuenta, registrate!</Link></div>
+                                                <div className="small"><Link to="/">Volver al index</Link></div>
                                             </div>
                                         </div>
                                     </div>
